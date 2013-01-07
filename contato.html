@@ -1,0 +1,142 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="robots" content="all, index, follow" />
+    <meta name="description" content="Site da Casa de Repouso da beneficiência Portuguesa RJ." />
+    <meta name="keywords" content="Casa de Repouso, Casa, Repouso, Idosos, Asilo, Benefeciência, Portuguesa" />
+    <meta name="author" content="Marcelo Torres" />
+    <meta name="copyright" content="rbspbrj" />
+
+    <meta property="og:title" content="Casa de Repouso - Beneficiência Portuguesa" />
+	<meta property="og:type" content="article"/>
+	<meta property="og:description" content="Fundada em 17 de maio de 1840 a Sociedade Portuguesa de Beneficência tinha como objetivo auxiliar os portugueses que vivam no Brasil." />
+	<meta property="og:url" content="http://www.rbspbrj.com.br/deriatria"/>
+	<meta property="og:site_name" content="Casa de Repouso Benefeciência Portuguesa"/>
+	<meta property="og:locale" content="pt_br" />
+	<title>CASA DE REPOUSO - BENEFICIÊNCIA PORTUGUESA - RJ</title>
+	<link type="text/css" rel="stylesheet" href="css/style.css" media="all"/>
+	<link type="text/css" rel="stylesheet" href="css/nivo-slider.css"  media="all"/>
+	
+	<!--[if IE ]>
+	<script src="js/html5shiv.js"></script>
+	<![endif]-->
+
+	<!--[if IE 7]>
+	<style>
+		header {margin-left: -467px;}
+	</style>
+	<![endif]-->
+
+	
+</head>
+<body class="homepage">
+	<div id="fundo">
+		
+			<header>
+				<div class="alinha">
+					<div class="logo">
+						<h1>
+							<a href="index.html" title="Página Inicial">Casa de Repouso - Beneficiência Portuguesa</a>
+						</h1>
+					</div>
+					
+					<nav>
+						<ul>
+							<li ><a href="index.html" title="Página Inicial" >home</a></li>
+							<li><a href="acasa.html" title="Informações sobre a Casa">a casa</a></li>
+							<li><a href="fotos.html" title="Fotos da Casa">fotos</a></li>
+							<li><a href="programacao.html" title="Programação de Atividades">Programação</a></li>
+							<li><a href="localizacao.html" title="Localização da Casa">localização</a></li>
+							<li class="active"><a href="contato.html" title="Entre em contato">contato</a></li>
+						</ul>
+					</nav>
+				</div>
+			</header>
+		
+
+		<div class="wrapper">
+			<section>
+				<div id="slider-nivo">
+			      	<div class="slider-wrapper theme-default"> <!-- Inicio do Nivo Slider -->
+			          <div class="ribbon"></div>
+			            <div id="slider" class="nivoSlider">
+			                <img src="img/slider01.jpg" alt="" title="" />
+			                <img src="img/slider02.jpg" alt="" title="" />
+			                <img src="img/slider03.jpg" alt="" title="" />
+			            </div>
+			        </div>
+			     </div><!-- Fim do Nivo Slider -->
+			</section>
+			<section class="box_contato">
+				<ul>
+					<li><img src="img/email.png" alt="Imagem do contato" width="50" height="45">	</li>
+					<li><h2>Contato - 2425-3948 / 3382-0397 / 3392-8679</h2></li>
+				</ul>		
+				
+				<form class="contato" action="contato.php" method="post">
+					<ul id="ladoEsq">
+						<li>
+							<label for="nome">Nome:
+								<input type="text" name="txt_nome" id="" >
+							</label> 
+						</li>
+						<li>
+							<label for="email">Email:
+								<input type="text" name="txt_email" id="" >
+							</label>
+						</li>
+						<li>
+							<label for="assunto">Assunto:
+								<input type="text" name="txt_assunto" id="" >
+							</label>
+						</li>
+					</ul>
+					<ul id="ladoDir">
+						<li>
+							<label for="mensagem">Mensagem:
+								<textarea name="txt_mensagem" id="" cols="30" rows="4"></textarea>
+							</label>
+						</li>
+						<li id="ajusta">
+							<input id="button" type="submit" value="Enviar">				
+						</li>
+					</ul>
+				</form>
+			</section>
+			<section id="boneco">
+				<img src="img/boneco2.png" alt="Boneco Contato">
+			</section>
+	
+
+			<aside class="acaoSocial">
+				<h3>Ação Social:</h3>
+				<ul>
+					<li><a href="#" title="Sua marca">Sua marca</a></li>
+					<li><a href="#" title="Sua marca">Sua marca</a></li>
+					<li><a href="#" title="Sua marca">Sua marca</a></li>
+					<li><a href="#" title="Sua marca">Sua marca</a></li>
+					<li><a href="#" title="Sua marca">Sua marca</a></li>
+					<li><a href="#" title="Sua marca">Sua marca</a></li>
+				</ul>
+			</aside>
+			
+		</div> <!-- Fim da wrapper -->
+		
+			<footer>
+				<p>Rua Florianópolis, 908 - Praça Seca - Jacarepaguá - RJ - CEP: 21321-050 - Tel (021) 2454-6016    © Copyright 2012 - Beneficência Portuguesa de Rio de Janeiro. Todos os direitos reservados - by <a href="http://www.martorres.com.br" target="_blank" title="martorres">martorres</a></p>
+			</footer>			
+		
+	</div>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+    <script src="js/jquery.nivo.slider.js" type="text/javascript"></script>
+    <!--<script type="javascript" src="js/modernizr.js"></script>-->
+    <script type="text/javascript">
+      $(window).load(function() {
+          $('#slider').nivoSlider();
+      });
+     </script>
+
+</body>
+</html>
